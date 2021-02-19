@@ -12,9 +12,9 @@
   "bugs": "https://github.com/AlessandroAnnini/react-aws-amplify-hooks/issues",
   "license": "MIT License",
   "author": "Alessandro Annini",
-  "main": "dist/agm-awesome-utils-tutorial.cjs.js",
-  "module": "dist/agm-awesome-utils-tutorial.esm.js",
-  "browser": "dist/agm-awesome-utils-tutorial.umd.js",
+  "main": "dist/react-aws-amplify-hooks.cjs.js",
+  "module": "dist/react-aws-amplify-hooks.esm.js",
+  "browser": "dist/react-aws-amplify-hooks.umd.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/AlessandroAnnini/react-aws-amplify-hooks"
