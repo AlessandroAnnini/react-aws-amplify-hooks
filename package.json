@@ -1,0 +1,51 @@
+{
+  "name": "react-aws-amplify-hooks",
+  "version": "1.0.0",
+  "description": "React hooks for AWS Amplify",
+  "keywords": [
+    "aws",
+    "amplify",
+    "aws-amplify",
+    "react",
+    "hooks"
+  ],
+  "bugs": "https://github.com/AlessandroAnnini/react-aws-amplify-hooks/issues",
+  "license": "MIT License",
+  "author": "Alessandro Annini",
+  "main": "dist/agm-awesome-utils-tutorial.cjs.js",
+  "module": "dist/agm-awesome-utils-tutorial.esm.js",
+  "browser": "dist/agm-awesome-utils-tutorial.umd.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlessandroAnnini/react-aws-amplify-hooks"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "@aws-amplify/api": "^1.2.4",
+    "react": "^16.8.0 || ^17"
+  },
+  "prettier": {
+    "semi": true,
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "useTabs": false,
+    "singleQuote": true,
+    "arrowParens": "always",
+    "endOfLine": "lf",
+    "printWidth": 80
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
+    "rollup": "^2.39.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
